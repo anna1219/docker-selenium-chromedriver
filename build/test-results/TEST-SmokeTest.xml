@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SmokeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-01-20T04:34:08" hostname="62a28877aaba" time="2.78">
+  <properties/>
+  <testcase name="smokeTest" classname="SmokeTest" time="2.78"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.27.440175 (9bc1d90b8bfa4dd181fbbf769a5eb5e575574320) on port 11481
+Only local connections are allowed.
+Jan 20, 2017 4:34:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Jan 20, 2017 4:34:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

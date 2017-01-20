@@ -1,0 +1,139 @@
+[0.457][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platform": "ANY",
+         "version": ""
+      },
+      "requiredCapabilities": {
+
+      }
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   },
+   "requiredCapabilities": {
+
+   }
+}
+[0.459][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.460][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0.463][INFO]: Launching chrome: /opt/google/chrome/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-extension=/tmp/.org.chromium.Chromium.epkgGc/internal --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12727 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.8uKE1Q data:,
+[0.817][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[0.901][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.27.440175 (9bc1d90b8bfa4dd181fbbf769a5eb5e575574320)",
+      "userDataDir": "/tmp/.org.chromium.Chromium.8uKE1Q"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Linux",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "~~~": "..."
+}
+[1.020][INFO]: COMMAND GetUrl {
+
+}
+[1.021][INFO]: Waiting for pending navigations...
+[1.023][INFO]: Done waiting for pending navigations. Status: ok
+[1.025][INFO]: Waiting for pending navigations...
+[1.026][INFO]: Done waiting for pending navigations. Status: ok
+[1.027][INFO]: RESPONSE GetUrl "data:,"
+[1.034][INFO]: COMMAND Navigate {
+   "url": "https://www.google.com"
+}
+[1.035][INFO]: Waiting for pending navigations...
+[1.036][INFO]: Done waiting for pending navigations. Status: ok
+[1.220][INFO]: Waiting for pending navigations...
+[1.597][INFO]: Done waiting for pending navigations. Status: ok
+[1.598][INFO]: RESPONSE Navigate
+[2.030][INFO]: COMMAND Quit {
+
+}
+[2.082][INFO]: RESPONSE Quit
