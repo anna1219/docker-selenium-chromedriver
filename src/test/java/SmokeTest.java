@@ -29,12 +29,6 @@ public class SmokeTest extends FluentTest {
 
     @Override
     public WebDriver newWebDriver() {
-//        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-//        LoggingPreferences logPrefs = new LoggingPreferences();
-//        logPrefs.enable(LogType.BROWSER, Level.ALL);
-//        capabilities.setCapability(CapabilityType.LOGGING_PREFS, logPrefs);
-//        capabilities.setJavascriptEnabled(true);
-
         System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
         return new ChromeDriver();
     }
